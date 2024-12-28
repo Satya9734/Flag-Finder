@@ -12,7 +12,7 @@ let fun1 = async () => {
   data = d2.data; //this is the collection of all contry
   let found = false;
   let user_value = name1.value;
-  let user_value2 = user_value.toLowerCase();
+  let user_value2 = user_value.toLowerCase().trimEnd();
 
   for (let key in data) {
     let con = data[key].country.toLowerCase();
