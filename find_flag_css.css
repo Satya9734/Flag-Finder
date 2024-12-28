@@ -1,0 +1,17 @@
+#main{
+   box-shadow: 13px 13px 1px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+
+img{
+   height: 150px;
+   width: 200px;
+}
+
+.my_name { 
+   position: fixed;
+    bottom: 0; 
+    right: 0; 
+    padding: 10px;
+    font-size: 1em;
+    }
